@@ -1,0 +1,97 @@
+.footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: var(--background-footer);
+}
+.footer__container {
+	display: flex;
+	align-items: baseline;
+}
+.footer-logo {
+	display: inline-block;
+	background-color: var(--background-footer);
+	color: var(--accent-color);
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 0.03em;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	margin-bottom: 20px;
+}
+.footer-logo__span {
+	color: var(--white-color);
+	margin-right: 156px;
+	transition: color 250ms var(--timing-function);
+}
+.footer-logo__span:hover,
+.footer-logo__span:focus {
+	color: var(--accent-color);
+}
+
+.footer__title {
+	display: block;
+	margin-bottom: 20px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+.socials__link-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: rgba(255, 255, 255, 1);
+	transition: var(--bacground-color) 250ms var(--timing-function);
+}
+.socials__link-footer:hover,
+.socials__link-footer:focus {
+	background-color: var(--accent-color);
+}
+
+.footer__contacts {
+	font-style: normal;
+	line-height: 1.71;
+}
+.footer-contacts__item:last-child {
+	margin-bottom: 0;
+}
+.footer-contacts__item {
+	margin-bottom: 9px;
+}
+.footer-contacts__adress {
+	color: var(--white-color);
+	line-height: 1.71;
+	display: inline-block;
+	transition: color 250ms var(--timing-function);
+}
+.footer-contacts__adress:hover,
+.footer-contacts__adress:focus {
+	color: var(--accent-color);
+}
+.footer-contacts__link {
+	color: rgba(255, 255, 255, 0.6);
+	display: inline-block;
+}
+.footer-socials {
+	width: 231px;
+	margin-right: 70px;
+}
+.footer-form {
+	margin-left: auto;
+}
+.footer-form__email {
+	min-width: 358px;
+	height: 50px;
+	margin-right: 12px;
+	padding-left: 16px;
+	color: var(--white-color);
+	background-color: var(--background-footer);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+}

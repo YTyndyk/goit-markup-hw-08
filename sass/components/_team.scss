@@ -1,0 +1,45 @@
+.section-team {
+    @extend %section;
+}
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -15px;
+}
+.team__card {
+	width: 270px;
+	margin: 15px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+}
+.team__card:last-child {
+	margin-right: 0;
+}
+.team__card-description {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #ffffff;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.team__member-name {
+	font-weight: 500;
+	line-height: 1.19;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.team__profesion {
+	color: var(--primary-text-color);
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	margin-bottom: 16px;
+}
+.section-team--decoration {
+	color: var(--title-color);
+	background: var(--backgroung-team);
+}
