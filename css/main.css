@@ -867,7 +867,15 @@ summary {
 }
 
 .section-about {
+  display: none;
   padding-top: 0;
+}
+@media screen and (min-width: 1200px) {
+  .section-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .work {
