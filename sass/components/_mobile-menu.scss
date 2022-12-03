@@ -44,7 +44,7 @@
   
   .menu-toggle:hover,
   .menu-toggle:focus {
-    background-color: var(--accent-color);
+    fill: var(--accent-color);
   }
   
   .menu-container {
@@ -55,7 +55,7 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
+    padding: 48px 40px;
     background-color: var(--bacground-color);
     z-index: 999;
   

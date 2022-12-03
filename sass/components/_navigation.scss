@@ -5,7 +5,10 @@
 }
 .navigation__list {
 display: none;
-	// display: flex;
+	
+	@media screen and(min-width: 768px) {
+		display: flex;
+	}
 }
 .navigation__item {
 	margin-right: 50px;
