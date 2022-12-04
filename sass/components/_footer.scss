@@ -3,25 +3,47 @@
 	padding-bottom: 60px;
 	background-color: var(--background-footer);
 }
-.footer__container {
+@media screen and (min-width: 1200px) {
+	.footer__container {
 	display: flex;
 	align-items: baseline;
 }
+
+}
+
 .footer-logo {
 	display: inline-block;
+	text-align: center;
 	background-color: var(--background-footer);
 	color: var(--accent-color);
 	font-family: "Raleway", sans-serif;
 	letter-spacing: 0.03em;
 	font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+	margin-bottom: 28px;
+
+	@media screen and (min-width: 1200px) {
 	font-size: 26px;
 	line-height: 1.19;
 	margin-bottom: 20px;
+	}
 }
+@media screen and (max-width: 1199.98px) {
+	.footer-logo .link {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+
 .footer-logo__span {
 	color: var(--white-color);
-	margin-right: 156px;
 	transition: color 250ms var(--timing-function);
+
+	@media screen and(min-width: 1200px) {
+		margin-right: 156px;
+	}
 }
 .footer-logo__span:hover,
 .footer-logo__span:focus {
@@ -36,6 +58,10 @@
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
+
+	@media screen and (max-width: 1199.98px) {
+				text-align: center;
+	}
 }
 .socials__link-footer {
 	display: flex;
@@ -78,20 +104,57 @@
 	display: inline-block;
 }
 .footer-socials {
-	width: 231px;
+	
+	margin-bottom: 60px;
+    text-align: center;
+
+	@media screen and (min-width: 1200px) {
+    width: 231px;
 	margin-right: 70px;
+	margin-bottom: 0;
+	text-align: start;
+	}
 }
 .footer-form {
 	margin-left: auto;
 }
 .footer-form__email {
-	min-width: 358px;
+	display: block;
+	min-width: 450px;
 	height: 50px;
-	margin-right: 12px;
 	padding-left: 16px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
 	color: var(--white-color);
 	background-color: var(--background-footer);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 4px;
+
+	@media screen and (min-width: 1200px) {
+	
+		min-width: 358px;
+		margin-right: 12px;
+	    margin-bottom: 0;
+	}
+}
+
+
+@media screen and (max-width: 1199.98px) {
+	.footer-slogan {
+	margin-bottom: 60px;
+}
+}
+@media screen and (min-width: 768px) {
+	.footer-wrapper {
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+}
+}
+@media screen and (min-width: 1200px) {
+	.footer-form__wrapper {
+		display: flex;
+	}
 }
