@@ -7,6 +7,10 @@
 	background-color: var(--backdrop-color);
 	opacity: 1;
 	transition: opasity 250ms var(--timing-function);
+	@media screen and (max-width: 767.98px) {
+		overflow-y: scroll;
+	}
+	
 }
 .backdrop.is-hidden {
 	opacity: 0;
@@ -21,7 +25,8 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	// padding: 40px;
+	margin-top: 95px;
+	padding: 40px;
 	width: 450px;
 	height: 609px;
 	background: #ffffff;
@@ -31,6 +36,9 @@
 	transform: translate(-50%, -50%) scale(1);
 	transition: transform 250ms var(--timing-function), visibility 250ms var(--timing-function), opasity 250ms var(--timing-function);
 		
+	@media screen and (min-width: 768px) {
+		
+	}
 	@media screen and( min-width: 1200px) {
 		width: 528px;
 		height: 581px;	
@@ -63,6 +71,10 @@
 	width: 448px;
 	margin-left: auto;
 	margin-right: auto;
+
+	@media screen and (max-width: 1199.98px) {
+		width: 370px;
+	}
 }
 .modal__feedback {
 	display: block;
@@ -93,6 +105,17 @@
 .modal__textarea label {
 	margin-bottom: 4px;
 }
+.agreement__text {
+	margin-right: -5px;
+		font-size: 12px;
+		line-height: 1.17;
+
+	@media screen and (min-width: 1200px) {
+		font-size: 14px;
+		line-height: 1.71;
+		margin-right: 0;
+	}
+	}
 
 .modal__label {
 	font-size: 12px;
@@ -146,8 +169,15 @@
 }
 }
 .modal-link {
+	font-size: 12px;
+	line-height: 1.17;
 	color: var(--accent-color);
 	text-underline-position: under;
+	@media screen and (min-width: 1200px) {
+		ont-size: 14px;
+		line-height: 1.71;
+	}
+
 }
 
 .agreement__checkbox {
