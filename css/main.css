@@ -975,6 +975,11 @@ summary {
 }
 @media screen and (min-width: 768px) {
   .peculiarities__icon {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .peculiarities__icon {
     width: 270px;
   }
 }
