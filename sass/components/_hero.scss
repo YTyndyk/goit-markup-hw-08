@@ -93,7 +93,7 @@
 			),
 			url('../images/hero/img_lg@1x.jpg');
 		// retina desktop screen//
-
+		
 		@media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -103,13 +103,15 @@
 					var(--hero-overley),
 					var(--hero-overley)
 				),
-				url('../images/hero/img_lg@2x.jpg');
+				url('../../images/hero/img_lg@2x.jpg');
 				background-size: cover;
 			
 		}
 	}
-
-	// @media screen and(min-width: 1200px) {
-	// 	height: 600px;
-	// }
+	
 }
+@media screen and(min-width: 1200px) {
+	.hero__overlay {
+		height: 600px;
+	}
+	}
