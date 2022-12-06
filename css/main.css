@@ -1371,7 +1371,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer-form__email {
-    min-width: 358px;
+    width: 358px;
     margin-right: 12px;
     margin-bottom: 0;
   }
