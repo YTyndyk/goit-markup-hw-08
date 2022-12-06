@@ -57,6 +57,7 @@
 				var(--hero-overley)
 			),
 			url('../images/hero/img_sm@2x.jpg');
+			background-size: cover;
 	}
 	// tablet screen//
 	@media screen and (min-width: 481px) {
@@ -76,8 +77,8 @@
 					var(--hero-overley)
 				),
 				url('../images/hero/img_md@2x.jpg');
+				background-size: cover;
 		}
-		background-size: cover;
 	}
 	// desktop screen//
 	@media screen and (min-width: 769px) {
@@ -97,6 +98,7 @@
 					var(--hero-overley)
 				),
 				url('../images/hero/img_lg@2x.jpg');
+				background-size: cover;
 		}
 	}
 
