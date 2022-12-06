@@ -565,37 +565,41 @@ summary {
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url(../images/hero/img_sm@1x.jpg);
-  background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url(../images/hero/img_sm@1x.jpg);
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url("../images/hero/img_sm@1x.jpg");
+  background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url("../images/hero/img_sm@1x.jpg");
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url(../images/hero/img_sm@2x.jpg);
-    background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url(../images/hero/img_sm@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url("../images/hero/img_sm@2x.jpg");
+    background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url("../images/hero/img_sm@2x.jpg");
+    background-size: cover;
   }
 }
 @media screen and (min-width: 481px) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url(../images/hero/img_md@1x.jpg);
-    background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url(../images/hero/img_md@1x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url("../images/hero/img_md@1x.jpg");
+    background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url("../images/hero/img_md@1x.jpg");
   }
 }
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url(../images/hero/img_md@2x.jpg);
-    background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url(../images/hero/img_md@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url("../images/hero/img_md@2x.jpg");
+    background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url("../images/hero/img_md@2x.jpg");
+    background-size: cover;
   }
 }
 @media screen and (min-width: 769px) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url(../images/hero/img_lg@1x.jpg);
-    background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url(../images/hero/img_lg@1x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url("../images/hero/img_lg@1x.jpg");
+    background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url("../images/hero/img_lg@1x.jpg");
   }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url(../images/hero/img_lg@2x.jpg);
-    background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url(../images/hero/img_lg@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overley)), to(var(--hero-overley))), url("../images/hero/img_lg@2x.jpg");
+    background-image: linear-gradient(to right, var(--hero-overley), var(--hero-overley)), url("../images/hero/img_lg@2x.jpg");
+    background-size: cover;
   }
 }
 @media screen and (min-width: 1200px) {
