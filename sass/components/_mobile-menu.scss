@@ -122,6 +122,7 @@ letter-spacing: 0.02em;
   } 
   .mobile-socials {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     font-weight: 500;
 font-size: 18px;
