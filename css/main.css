@@ -312,7 +312,6 @@ summary {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid tomato;
 }
 @media screen and (min-width: 480px) {
   .container {
