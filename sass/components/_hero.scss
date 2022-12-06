@@ -91,7 +91,7 @@
 				var(--hero-overley),
 				var(--hero-overley)
 			),
-			url('../images/hero/img_lg@1x.jpg');
+			url('../images/hero/Img_lg@1x.jpg');
 		// retina desktop screen//
 		
 		@media (min-device-pixel-ratio: 2),
@@ -103,7 +103,7 @@
 					var(--hero-overley),
 					var(--hero-overley)
 				),
-				url('../images/hero/img_lg@2x.jpg');
+				url('../images/hero/Img_lg@2x.jpg');
 				background-size: cover;
 			
 		}
