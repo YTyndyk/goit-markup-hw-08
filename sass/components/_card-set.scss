@@ -6,7 +6,7 @@
 
 .card-set__list {
 	@media screen and (min-width: 768px) {
-		flex-basis: calc((100% - 60px) / 2);
+		flex-basis: calc((100% - 30px) / 2);
 	}
 	@media screen and (min-width: 1200px) {
 		flex-basis: calc((100% - 60px) / 3);
@@ -52,10 +52,7 @@
 	padding: 20px 24px 20px 24px;
 	border: 1px solid #eeeeee;
 	border-top: 0;
-	@media screen and(min-width: 768px) and (max-width: 1199.98px) {
-		height: 146px;
 	}
-}
 .card-set__title {
 	color: var(--title-color);
 	font-weight: 700;
